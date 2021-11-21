@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Company Details" />
+    <meta name="keywords" content="Home Page, Oracle" />
+    <meta name="author" content="Pallab Paul" />
+
+    <title>CSS Enhancement Page</title>
+
+    <!-- Favicon -->
+    <link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat%7CUbuntu"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Applied -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/backStyles.css" />
+  </head>
+
+  <body>
+    <!-- Start of Navigation Bar -->
+    <img src="./images/oracle_logo.png" alt="Logo" class="brand-logo-fixed" />
+    <header id="navigation-bar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navigator"
+            aria-controls="navigator"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img
+              src="./images/oracle_logo.png"
+              alt="Logo"
+              class="d-inline-block align-text-center brand-logo"
+            />
+          </a>
+          <div class="collapse navbar-collapse" id="navigator">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./jobs.html">Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./apply.html">Apply</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  id="dropDownLink"
+                  class="nav-link active"
+                  aria-current="page"
+                  >Enhancements⬇️</a
+                >
+                <div id="dropDownMenu" class="dropdown-content">
+                  <a href="./enhancements.html">CSS Enhancement</a>
+                  <a href="./enhancements2.html">JS Enhancement</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--    End of Navigation Bar  -->
+
+    <!-- Background -->
+    <div id="Clouds-enhancement" class="back">
+      <div class="Cloud Foreground back"></div>
+      <div class="Cloud Background back"></div>
+      <div class="Cloud Foreground back"></div>
+      <div class="Cloud Background back"></div>
+      <div class="Cloud Foreground back"></div>
+      <div class="Cloud Background back"></div>
+      <div class="Cloud Background back"></div>
+      <div class="Cloud Foreground back"></div>
+      <div class="Cloud Background back"></div>
+      <div class="Cloud Background back"></div>
+    </div>
+    <!-- End of Background -->
+    <div>
+      <section id="Enhancements">
+        <div class="jobs-header bounce-in">
+          <h2>Enhancements Used</h2>
+          <p>
+            Efforts have been made to going beyond the classwork and <br />
+            learn something beyond our scope of knowledge. The used enhancements
+            <br />
+            have been listed below and link to the pertaining enhancements has
+            been given.
+          </p>
+        </div>
+        <div class="jobs-img">
+          <img
+            class="header-img"
+            src="./images/enhancements.gif"
+            alt="Enhancements image"
+          />
+        </div>
+
+        <hr />
+
+        <div id="bootstrap" class="bounce-in">
+          <h1 class="enhancements-used">Used Bootstrap</h1>
+          <img
+            class="bootstrap-img"
+            src="./images/Bootstrap_logo.png"
+            alt="Bootstrap_logo"
+          />
+          <p>
+            Bootstrap has been used to improve the User Experience by adding
+            Carousals, Cards and Navigation Bar. The
+            <a href="https://getbootstrap.com/">Bootstrap Library</a> has been
+            used to implement such features.
+          </p>
+          <ul>
+            <li>
+              The <a href="#navigation-bar">Navigation Bar</a> has been used to
+              navigate throughout the website.
+            </li>
+            <li>
+              The <a href="./index.html#leaders">Carousals</a> have been used to
+              display the images of the company directors and heads.
+            </li>
+            <li>
+              The <a href="./jobs.html#job-positions">Cards</a> have been used
+              to display the Job Positions Available to Apply for.
+            </li>
+            <li>
+              Last but not least,
+              <a href="./jobs.html#job-positions">Collapse</a> functionality has
+              been used in the "jobs" page so as to decrease the cluster of
+              un-necessary information for everyone. Please click on the
+              particular Card to see the Job description related to it.
+            </li>
+          </ul>
+        </div>
+
+        <div id="animation" class="bounce-in">
+          <h1 class="enhancements-used">Used Animations</h1>
+          <img
+            class="enhancements-used-img"
+            src="./images/animation_logo.gif"
+            alt="Animation_logo"
+          />
+          <p>
+            Animations have been implemented to make the User Experience more
+            exiting and engaging. These are declared in the styles.css file.
+            Please try to refresh the pages to have a look at the animations.
+          </p>
+          <ul>
+            <li>
+              Oracle being a leading company in Cloud field a special reference
+              has been given to that using the
+              <a href="#Clouds-enhancement">Moving Clouds </a> animation. This
+              has been implemented from
+              <a href="https://codepen.io/shshaw/full/DxJka/">this Page</a>.
+            </li>
+            <li>
+              The
+              <a href="https://codepen.io/codeams/pen/IuGxn">Bounce in</a>
+              animation has been used in the
+              <a href="./index.html#about-us">Table</a> and
+              <a href="./jobs.html#job-positions">Cards</a>.
+            </li>
+            <li>
+              The <a href="#navigation-bar">Slide </a> animation have been used
+              to give a dynamic effect of the navigation-bar brand.
+            </li>
+            <li>
+              The
+              <a href="https://codepen.io/ma_suwa/pen/eYdZVML">Animate-drop</a>
+              animation has been used to highlight
+              <a href="./jobs.html#Job-Description">Apply Now</a> .
+            </li>
+            <li>
+              The
+              <a href="https://codepen.io/AbubakerSaeed/pen/abzWqPb"
+                >Block Revealing Effect
+              </a>
+              has been used in the jobs page.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>©Swinburne University Submission ©By Pallab Paul</p>
+      </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./scripts/dropdown.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
